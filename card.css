@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p,h1{
+    color: rgb(21, 34, 6);
+}
+.row{
+    background-color:hwb(162 59% 27%);
+    border-radius: 30px;
+    box-shadow: 12px 12px 12px;
+    width: auto;
+    height: 37rem;
+}
+img{
+    width: 120%;
+    height: 37rem;
+    border-bottom-left-radius: 450px;
+    border-top-right-radius: 450px;
+}
+.login h1{
+    font-size: 4rem;
+    font-weight: 300;
+}
+.inp{
+    height: 50px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    box-shadow: 2px 5px 2px 5px rgba(0, 0, 0, 0.35);
+}
+.btn1{
+    width: 100px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color:gray;
+}
+.btn1:hover{
+    background-color: rgb(119, 211, 225);
+    transition: 0.5s;
+}
+
+a{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+a:hover i{
+    transform: scale(1.6);
+}
+.fa-facebook{
+    color:blue;
+}
+.fa-github{
+    color:purple;
+}
+.fa-instagram{
+    color:rgb(252, 5, 190);
+}
+.fa-whatsapp{
+    color:rgb(18, 244, 2);
+}
